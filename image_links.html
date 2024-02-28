@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Website</title>
+    <style>
+        /* Add your CSS styles here for better appearance */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to IshLu Creative Website</h1>
+        <p>Explore the sections below</p>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home section. Welcome to our website.</p>
+        <a href="https://google.com"><img src="tech1.jpg" alt="Home Image"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="nature1.jpg" alt="Image 1">
+            <img src="nature2.jpg" alt="Image 2">
+            <img src="nature3.jpg" alt="Image 3">
+            <img src="nature4.jpg" alt="Image 4">
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://image_links.html"><img src="food1.jpg" alt="Food Item 1"> Food Item 1</a></li>
+            <li><a href="https://image_links.html"><img src="food2.jpg" alt="Food Item 2"> Food Item 2</a></li>
+            <li><a href="https://image_links.html"><img src="food3.jpg" alt="Food Item 3"> Food Item 3</a></li>
+            <li><a href="https://image_links.html"><img src="food4.jpg" alt="Food Item 4"> Food Item 4</a></li>
+            <li><a href="https://image_links.html"><img src="food3.jpg" alt="Food Item 5"> Food Item 5</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 My IshLu Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
